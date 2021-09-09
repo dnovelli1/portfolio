@@ -9,6 +9,7 @@
 
 .navbar-brand {
   width: 16rem !important;
+  color: var(--primary-text) !important;
 }
 
 nav a.nav-link {
@@ -35,6 +36,27 @@ nav ul li {
 .navbar-nav > li > a:hover {
   border-bottom: .1875rem solid var(--primary-accent) !important;
 }
+
+
+/* Header */
+
+.headerWrap {
+  position: relative;
+  background: url(technology-background-image-11.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}
+
+.quickInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
 
 
 /* #021c1e  Blue Black
