@@ -42,7 +42,8 @@ nav ul li {
 
 .headerWrap {
   position: relative;
-  background: url(technology-background-image-11.jpg);
+  background: url(technologyimage.jpg);
+  opacity: 0.95;
   background-size: cover;
   background-position: center;
   height: 90vh;
@@ -51,13 +52,35 @@ nav ul li {
 .quickInfo {
   display: flex;
   flex-direction: column;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   justify-content: center;
   align-items: center;
   text-align: center;
 }
 
 
+.typed-text {
+  font-size: 3rem;
+  color: white;
+}
 
+.btn-home {
+  display: inline-block;
+  border: 2px solid var(--primary-accent) !important;
+  text-transform: uppercase;
+  border-radius: 5px;
+  padding: 0.5rem 0.6rem 0.6rem 0.6rem;
+  margin: 2rem;
+  color: white;
+}
+
+.btn-home:hover {
+  color: var(--primary-text);
+}
 
 /* #021c1e  Blue Black
 #004445  Cadet Blue
