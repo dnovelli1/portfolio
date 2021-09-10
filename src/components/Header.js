@@ -7,13 +7,13 @@ const Header = () => {
             <div className="quickInfo">
                 <Types 
                 className="typed-text"
-                strings={["Web Developer", "Software Engineer", ""]}
+                strings={["Full Stack Developer", "Software Engineer", "HTML, CSS, Javascript, Node, Express, React"]}
                 typeSpeed={30}
                 backSpeed={60}
                 loop
                 />
-                <a href="https://github.com/dnovelli1" className="btn-home">Github</a>
-                <a href="https://www.linkedin.com/in/david-jacob-novelli/" className="btn-home">LinkedIn</a>
+                <a href="https://github.com/dnovelli1" target="_blank" className="btn-home">Github</a>
+                <a href="https://www.linkedin.com/in/david-jacob-novelli/" target="_blank" className="btn-home">LinkedIn</a>
             </div>
         </div>
     )
