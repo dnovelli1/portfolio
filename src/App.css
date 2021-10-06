@@ -69,7 +69,7 @@ nav ul li {
 }
 
 .btn-home {
-  display: inline-block;
+  display: inline-block !important;
   border: 2px solid var(--primary-accent) !important;
   text-transform: uppercase;
   border-radius: 5px;
