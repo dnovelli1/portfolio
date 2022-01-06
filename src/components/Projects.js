@@ -6,6 +6,7 @@ import google from "../assets/google.gif";
 
 const Projects = () => {
     return (
+        <div className="bg-dark">
         <div className="container">
             <div className="row">
                 <div className="col-sm-6">
@@ -57,6 +58,7 @@ const Projects = () => {
                     </div>
                 </div>
             </div>
+        </div>
         </div>
     )
 }
